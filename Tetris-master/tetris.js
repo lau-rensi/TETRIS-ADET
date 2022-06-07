@@ -178,7 +178,7 @@ function clearLines() {
             }
         }
         if (rowFilled) {
-            score = score + 200;
+            score = score + 300;
             $('#score').html(score);
             clearSound.play();
             for (var z = y; z > 0; z--) {
